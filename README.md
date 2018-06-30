@@ -11,4 +11,13 @@ Testing_Anomaly_Detector_public.py is to test trained Anomaly Detection Model
 Save_C3DFeatures_32Segments is to save already computed C3D features for the whole video into 32 segment features.
 
 
+weights_L1L2.mat: It contains the pre-trained weights for the model ‘model.json’.
+
+Demo_GUI: We have provided a simple GUI which can be used to see results of our approach on sample videos.
+
+SampleVideos: This folder contains C3D features (32 segments) for sample videos. It order to see the testing results for the features in this folder, please copy the corrosponding videos in the same folder.
+
+
+Plot_All_ROC:  This code can be use to plot the ROC results reported in the paper. The data to plot ROCs of methods discussed in the paper can be found in folder Paper_Results
+
 If you find any bug, or have some questions, please contact Waqas Sultani: waqas5163@gmail.com

@@ -18,6 +18,21 @@ Demo_GUI: We have provided a simple GUI which can be used to see results of our 
 SampleVideos: This folder contains C3D features (32 segments) for sample videos. It order to see the testing results for the features in this folder, please copy the corrosponding videos in the same folder.
 
 
-Plot_All_ROC:  This code can be use to plot the ROC results reported in the paper. The data to plot ROCs of methods discussed in the paper can be found in folder Paper_Results
+Plot_All_ROC:  This code can be use to plot the ROC results reported in the paper. The data to plot ROCs of methods discussed in the paper can be found in folder Paper_Results.
+
+
+The project page and UCF-Crimes dataset can be found at: http://crcv.ucf.edu/projects/real-world/
+
 
 If you find any bug, or have some questions, please contact Waqas Sultani: waqas5163@gmail.com
+
+
+Citation:
+
+@InProceedings{Sultani_2018_CVPR,
+author = {Sultani, Waqas and Chen, Chen and Shah, Mubarak},
+title = {Real-World Anomaly Detection in Surveillance Videos},
+booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+month = {June},
+year = {2018}
+}

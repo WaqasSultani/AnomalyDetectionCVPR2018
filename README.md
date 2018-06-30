@@ -30,9 +30,15 @@ If you find any bug, or have some questions, please contact Waqas Sultani: waqas
 Citation:
 
 @InProceedings{Sultani_2018_CVPR,
+
 author = {Sultani, Waqas and Chen, Chen and Shah, Mubarak},
+
 title = {Real-World Anomaly Detection in Surveillance Videos},
+
 booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+
 month = {June},
+
 year = {2018}
+
 }

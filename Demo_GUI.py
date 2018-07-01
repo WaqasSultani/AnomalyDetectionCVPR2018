@@ -194,7 +194,7 @@ class PrettyWidget(QtGui.QWidget):
         pos_frame = cap.get(cv2.CAP_PROP_POS_FRAMES)
         Total_frames = cap.get(cv2.CAP_PROP_FRAME_COUNT)
 
-        print ("Anomaly Prediction AL")
+        print ("Anomaly Prediction")
         x = np.linspace(1, Total_frames, Total_frames)
         scores = Frames_Score
         scores1=scores.reshape((scores.shape[1],))

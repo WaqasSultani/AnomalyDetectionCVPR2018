@@ -15,7 +15,7 @@ weights_L1L2.mat: It contains the pre-trained weights for the model ‘model.jso
 
 Demo_GUI: We have provided a simple GUI which can be used to see results of our approach on sample videos.
 
-SampleVideos: This folder contains C3D features (32 segments) for sample videos. It order to see the testing results for the features in this folder, please copy the corrosponding videos in the same folder.
+SampleVideos: This folder contains C3D features (32 segments) for sample videos. It order to see testing results for the features in this folder, please copy the corrosponding videos in the same folder.
 
 
 Plot_All_ROC:  This code can be use to plot the ROC results reported in the paper. The data to plot ROCs of methods discussed in the paper can be found in folder Paper_Results.

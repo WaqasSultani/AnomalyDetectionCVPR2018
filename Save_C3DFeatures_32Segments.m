@@ -23,8 +23,7 @@ subcript='_C.txt';
 for ifolder=1:length(All_Folder)
      
     Folder_Path=[C3D_Path,'/',All_Folder(ifolder).name];
-    %Folder_Path is path of a folder which contains C3D features (for every
-    %16 frames) for a paricular video.
+    %Folder_Path is path of a folder which contains C3D features (for every 16 frames) for a paricular video.
     
     
     AllFiles=dir([Folder_Path,'/*.fc6-1']);

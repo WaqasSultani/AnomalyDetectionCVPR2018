@@ -6,7 +6,7 @@ close all
 C3D_CNN_Path='/home/cvlab/Waqas_Data/Anomaly_Data/C3D_Complete_video/Testing_Videos_C3D'; % C3D features for videos
 Testing_VideoPath='/home/cvlab/Waqas_Data/Anomaly_Data/Testing_Videos'; % Path of mp4 videos
 AllAnn_Path='/home/cvlab/Waqas_Data/Anomaly_Data/Temporal_Annotations'; % Path of Temporal Annotations
-Model_Score_Folder='/home/cvlab/Waqas_Data/Anomaly_Data/Model_Res';  % Path of Pretrained Model score on Testing videos ( 32 numbers for 32 temporal segments)
+Model_Score_Folder='/home/cvlab/Waqas_Data/Anomaly_Data/Model_Res';  % Path of Pretrained Model score on Testing videos (32 numbers for 32 temporal segments)
 Paper_Results='/home/cvlab/Waqas_Data/Anomaly_Data/Eval_Res';   % Path to save results.
  
 All_Videos_scores=dir(Model_Score_Folder);
@@ -38,12 +38,13 @@ for ivideo=1:nVideos
     end
 
     Predic_scores=load(ScorePath);
-    Actual_frames=round(xyloObj.Duration*30);
+    fps=30;
+    Actual_frames=round(xyloObj.Duration*fps);
 
     Folder_Path=[C3D_CNN_Path,'/',All_Videos_scores(ivideo).name(1:end-4)];
     AllFiles=dir([Folder_Path,'/*.fc6-1']);
     nFileNumbers=length(AllFiles);
-    nFrames_C3D=nFileNumbers*16;
+    nFrames_C3D=nFileNumbers*16;  % As the features were computed for every 16 frames
 
 
 %% 32 Shots

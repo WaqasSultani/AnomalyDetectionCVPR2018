@@ -23,11 +23,7 @@ end
 
 AUC_All*100
 
-%legend({'Tang et al.','Siva et al.','Proposed'},'FontSize',14,'Location','southeast');
-%legend({'Binary classifier','Lu et al.','Hassan et al.','Proposed w/o constraints','Proposed w/ constraints'},'FontSize',16,'Location','southeast');
 legend({'Binary classifier','Lu et al.','Hassan et al.','Proposed with constraints'},'FontSize',16,'Location','southeast');
-
-%legend({'Proposed'},'FontSize',14,'Location','northwest');
 xlabel('False Positive Rate','FontWeight','normal','FontSize',18);
 ylabel('True Positive Rate','FontWeight','normal','FontSize',18);
 set(gca,'FontWeight','normal','FontSize',12);

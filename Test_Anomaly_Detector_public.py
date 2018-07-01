@@ -71,8 +71,8 @@ def load_dataset_One_Video_Features(Test_Video_Path):
     f = open(VideoPath, "r")
     words = f.read().split()
     num_feat = len(words) / 4096
-    # Number of features per video to be loaded. In our case num_feat=32, as we divide the video into 32 segments. Npte that
-    # we have already computed C3D features for the whole video and divide the video features into 32 segments.
+    # Number of features per video to be loaded. In our case num_feat=32, as we divide the video into 32 segments. Note that
+    # we have already computed C3D features for the whole video and divided the video features into 32 segments.
 
     count = -1;
     VideoFeatues = []
@@ -92,7 +92,7 @@ def load_dataset_One_Video_Features(Test_Video_Path):
 print("Starting testing...")
 
 
-AllTest_Video_Path = '/newdata/UCF_Anomaly_Dataset/Dataset/CVPR_Data/C3D_Complete_Video_txt/Test/Avg/'
+AllTest_Video_Path = '/newdata/UCF_Anomaly_Dataset/Dataset/CVPR_Data/C3D_Complete_Video_txt/Test/'
 Results_Path = '../Eval_Res/'
 Model_dir='../Trained_AnomalyModel/'
 weights_path = Model_dir + 'weightsAnomalyL1L2.mat'
@@ -116,7 +116,7 @@ for iv in range(nVideos):
     predictions = model.predict_on_batch(inputs)   # Get anomaly prediction for each of 32 video segments.
     aa=All_Test_files[iv]
     aa=aa[0:-4]
-    A_predictions_path = Results_Path + aa + '.mat'  # Save array of 1*32, containing anomaly score for each segment. Please Evaluate Anomaly Detector to compute  ROC.
+    A_predictions_path = Results_Path + aa + '.mat'  # Save array of 1*32, containing anomaly score for each segment. Please see Evaluate Anomaly Detector to compute  ROC.
     print "Total Time took: " + str(datetime.now() - time_before)
 
 

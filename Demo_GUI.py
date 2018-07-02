@@ -131,7 +131,7 @@ class PrettyWidget(QtGui.QWidget):
         btn = QtGui.QPushButton('ANOMALY DETECTION SYSTEM \n Please select video', self)
 
         Model_dir = '/home/cvlab/Waqas_Data/Anomaly_Data/Pre_TrainedModels/L1L2/'
-        weights_path = Model_dir + 'Weights.mat'
+        weights_path = Model_dir + 'weights_L1L2.mat'
         model_path = Model_dir + 'model.json'
         ########################################
         ######    LOAD ABNORMALITY MODEL   ######

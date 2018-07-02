@@ -1,6 +1,12 @@
 Here you can find Training/Testing Code for our anomaly Detection project which was published in Computer Vision and Pattern Recognition, CVPR 2018.
 
-The implementation is done on Keras version 1.1.0.
+The implementation is tested on following plateforms
+
+Keras version 1.1.0. 
+Theano 1.0.2
+Python 3
+Ubuntu 16.04
+
 
  
 Training_AnomalyDetecor_public.py is to Train Anomaly Detection Model

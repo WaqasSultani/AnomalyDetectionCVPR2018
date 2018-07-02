@@ -3,8 +3,11 @@ Here you can find Training/Testing Code for our anomaly Detection project which 
 The implementation is tested on following plateforms
 
 Keras version 1.1.0. 
+
 Theano 1.0.2
+
 Python 3
+
 Ubuntu 16.04
 
 

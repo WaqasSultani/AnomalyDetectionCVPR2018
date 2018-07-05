@@ -11,6 +11,7 @@ Python 3
 Ubuntu 16.04
 
 
+We used C3D-v1.0 (https://github.com/facebook/C3D) with default settings as a feature extractor.
  
 Training_AnomalyDetecor_public.py is to Train Anomaly Detection Model
 

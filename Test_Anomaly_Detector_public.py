@@ -98,7 +98,7 @@ Results_Path = '../Eval_Res/'
 # Results_Path is the folder where you can save your results
 Model_dir='../Trained_AnomalyModel/'
 # Model_dir is the folder where we have placed our trained weights
-weights_path = Model_dir + 'weightsAnomalyL1L2.mat'
+weights_path = Model_dir + 'weights_L1L2.mat'
 # weights_path is Trained model weights
 
 model_path = Model_dir + 'model.json'

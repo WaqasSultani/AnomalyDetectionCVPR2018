@@ -280,8 +280,11 @@ model.compile(loss=custom_objective, optimizer=adagrad)
 print("Starting training...")
 
 AllClassPath='/newdata/UCF_Anomaly_Dataset/Dataset/CVPR_Data/C3D_Features_Txt/Train/'
+# AllClassPath contains C3D features (.txt file)  of each video. Each text file contains 32 features, each of 4096 dimension
 output_dir='/newdata/UCF_Anomaly_Dataset/Dataset/CVPR_Data/Trained_Models/TrainedModel_MIL_C3D/'
+# Output_dir is the directory where you want to save trained weights
 weights_path = output_dir + 'weights.mat'
+# weights.mat are the model weights that you will get after (or during) that training
 model_path = output_dir + 'model.json'
 
 if not os.path.exists(output_dir):

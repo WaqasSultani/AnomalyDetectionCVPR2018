@@ -93,9 +93,14 @@ print("Starting testing...")
 
 
 AllTest_Video_Path = '/newdata/UCF_Anomaly_Dataset/Dataset/CVPR_Data/C3D_Complete_Video_txt/Test/'
+# AllTest_Video_Path contains C3D features (txt file)  of each video. Each file contains 32 features, each of 4096 dimensions.
 Results_Path = '../Eval_Res/'
+# Results_Path is the folder where you can save your results
 Model_dir='../Trained_AnomalyModel/'
+# Model_dir is the folder where we have placed our trained weights
 weights_path = Model_dir + 'weightsAnomalyL1L2.mat'
+# weights_path is Trained model weights
+
 model_path = Model_dir + 'model.json'
 
 if not os.path.exists(Results_Path):

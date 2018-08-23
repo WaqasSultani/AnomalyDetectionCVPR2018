@@ -30,7 +30,7 @@ import matplotlib.pyplot as plt
 import cv2
 import os, sys
 import pickle
-from PyQt4 import QtGui   # You can also try out PyQt5 if PyQt4 is not working in your case.
+from PyQt4 import QtGui   # If PyQt4 is not working in your case, you can try PyQt5, 
 seed = 7
 numpy.random.seed(seed)
 

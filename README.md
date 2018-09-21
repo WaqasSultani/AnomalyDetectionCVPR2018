@@ -33,6 +33,8 @@ Plot_All_ROC:  This code can be use to plot the ROC results reported in the pape
 
 
 The project page and UCF-Crimes dataset can be found at: http://crcv.ucf.edu/projects/real-world/
+The dataset can be also downloaded from the dropbox link given here:
+https://webpages.uncc.edu/cchen62/dataset.html
 
 
 If you find any bug, or have some questions, please contact Waqas Sultani: waqas5163@gmail.com

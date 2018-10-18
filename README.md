@@ -4,7 +4,7 @@ The dataset can be also downloaded from the following link:
 https://webpages.uncc.edu/cchen62/dataset.html
 
 
-Here you can find Training/Testing Code for our anomaly Detection project which was published in Computer Vision and Pattern Recognition, CVPR 2018.
+Below you can find Training/Testing Code for our anomaly Detection project which was published in Computer Vision and Pattern Recognition, CVPR 2018.
 
 The implementation is tested using:
 

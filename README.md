@@ -1,3 +1,9 @@
+DATASET:
+
+The dataset can be also downloaded from the following link:
+https://webpages.uncc.edu/cchen62/dataset.html
+
+
 Here you can find Training/Testing Code for our anomaly Detection project which was published in Computer Vision and Pattern Recognition, CVPR 2018.
 
 The implementation is tested using:
@@ -32,13 +38,12 @@ SampleVideos: This folder contains C3D features (32 segments) for sample videos.
 Plot_All_ROC:  This code can be use to plot the ROC results reported in the paper. The data to plot ROCs of methods discussed in the paper can be found in folder Paper_Results.
 
 
-The project page and UCF-Crimes dataset can be found at: http://crcv.ucf.edu/projects/real-world/
+The project page can be found at: http://crcv.ucf.edu/projects/real-world/
 
 Temporal_Anomaly_Annotation.txt contains ground truth annotations of the testing dataset.
 
 
-The dataset can be also downloaded from the dropbox link given here:
-https://webpages.uncc.edu/cchen62/dataset.html
+
 
 
 If you find any bug, or have some questions, please contact Waqas Sultani: waqas5163@gmail.com

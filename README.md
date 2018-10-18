@@ -34,6 +34,8 @@ Plot_All_ROC:  This code can be use to plot the ROC results reported in the pape
 
 The project page and UCF-Crimes dataset can be found at: http://crcv.ucf.edu/projects/real-world/
 
+Temporal_Anomaly_Annotation.txt contains ground truth annotations of the testing dataset.
+
 
 The dataset can be also downloaded from the dropbox link given here:
 https://webpages.uncc.edu/cchen62/dataset.html

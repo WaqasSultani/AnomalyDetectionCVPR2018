@@ -41,7 +41,7 @@ Plot_All_ROC:  This code can be use to plot the ROC results reported in the pape
 The project page can be found at: http://crcv.ucf.edu/projects/real-world/
 
 Temporal_Anomaly_Annotation.txt contains ground truth annotations of the testing dataset.
-
+Anomaly_Train.txt contains the video names for training anomaly detector
 
 
 

@@ -1,7 +1,7 @@
 DATASET:
 
 The dataset can be also downloaded from the following link:
-https://webpages.uncc.edu/cchen62/dataset.html
+https://visionlab.uncc.edu/download/summary/60-data/477-ucf-anomaly-detection-dataset
 
 
 Below you can find Training/Testing Code for our anomaly Detection project which was published in Computer Vision and Pattern Recognition, CVPR 2018.

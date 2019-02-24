@@ -264,7 +264,7 @@ def custom_objective(y_true, y_pred):
 
     z = T.ones_like(y_true)
     for ii in xrange(0, n_Nor, 1):
-        sub_z = T.maximum(1 - Sub_Abn + Sub_Nor[ii], 0)
+        sub_z = T.maximum(1 - Sub_Abn[ii] + Sub_Nor[ii], 0)
         z = T.concatenate([z, T.stack(T.sum(sub_z))])
 
     z = z[Num_d:]  # We need this step since we have used T.ones_like

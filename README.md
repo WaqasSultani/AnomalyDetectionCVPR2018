@@ -4,6 +4,11 @@ The dataset can be also downloaded from the following link:
 https://visionlab.uncc.edu/download/summary/60-data/477-ucf-anomaly-detection-dataset
 
 
+You can also download dataset in parts through following link
+
+https://www.dropbox.com/sh/75v5ehq4cdg5g5g/AABvnJSwZI7zXb8_myBA0CLHa?dl=0
+
+
 Below you can find Training/Testing Code for our anomaly Detection project which was published in Computer Vision and Pattern Recognition, CVPR 2018.
 
 The implementation is tested using:

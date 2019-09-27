@@ -52,7 +52,7 @@ Anomaly_Train.txt contains the video names for training anomaly detector
 FAQs: 
 
 
-Q:  Should I used C3D or I3D?
+Q:  Should I use C3D or I3D?
 
 
 Ans:  Several people have emailed me that in their experiments, I3D performs much better than C3D. So I would suggest to first try I3D. Obviously, for this, we need to re-train the model and make small modifications in training and testing codes.

@@ -43,7 +43,7 @@ SampleVideos: This folder contains C3D features (32 segments) for sample videos.
 Plot_All_ROC:  This code can be use to plot the ROC results reported in the paper. The data to plot ROCs of methods discussed in the paper can be found in folder Paper_Results.
 
 
-The project page can be found at: http://crcv.ucf.edu/projects/real-world/
+The project page can be found at: https://www.crcv.ucf.edu/projects/real-world/
 
 Temporal_Anomaly_Annotation.txt contains ground truth annotations of the testing dataset.
 

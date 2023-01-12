@@ -9,6 +9,10 @@ You can also download dataset in parts through following link
 https://www.dropbox.com/sh/75v5ehq4cdg5g5g/AABvnJSwZI7zXb8_myBA0CLHa?dl=0
 
 
+*****
+The code is now outdated and will not work with current keras versions. The following code with not run as-it-is, however, you can look into the code to understand the paper better.
+****
+
 Below you can find Training/Testing Code for our anomaly Detection project which was published in Computer Vision and Pattern Recognition, CVPR 2018.
 
 The implementation is tested using:

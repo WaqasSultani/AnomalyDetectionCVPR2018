@@ -19,7 +19,7 @@ The implementation is tested using:
 
 Keras version 1.1.0
 
-Theano 1.0.2
+Theano 1.0.4
 
 Python 3
 
